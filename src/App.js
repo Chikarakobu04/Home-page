@@ -5,19 +5,14 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>FC理工</h1>
+        <p>南山大学理工学部生のホームページです。</p>
+        <a href="#about"className="btn">成果物</a>
       </header>
+      <section id="about">
+        <h2>成果物一覧</h2>
+        <p>これからここに成果物を挙げていきます。</p>
+      </section>
     </div>
   );
 }
